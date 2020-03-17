@@ -84,7 +84,7 @@ sudo pip3 install ethtool
 sduo zypper --non-interactive install -y part*
 sduo zypper --non-interactive install -y libpart*
 sudo pip3 install pyparted
-sudo zypper --non-interactive --no-gpg-check ar -f ${suse_factory_repo} suse_factory
+sudo zypper --non-interactive --no-gpg-checks ar -f ${suse_factory_repo} suse_factory
 sudo zypper --non-interactive --gpg-auto-import-keys ref
 sudo zypper --non-interactive install -y spice-html5
 sudo zypper --non-interactive rr suse_factory
